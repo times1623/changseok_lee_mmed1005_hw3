@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden {
+	display: none;
+}
+
+kbd
+{
+	display: none;
+}
+
+.clearfix:after
+{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#background
+{
+	background-image: url(../images/starship_bckgrd.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 1180px;
+	margin: 0 auto;
+}
+
+
+#siteContainer
+{
+	width: 960px;
+	height: 1180px;
+	margin: 0 auto;
+}
+
+#keys
+{
+	position: absolute;
+	width: 620px;
+	height: 618px;
+	margin-top: 420px;
+	margin-left: 170px;
+}
+
+.key
+{
+	width: 165px;
+	height: 160px;
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+
+#key1, #key2
+{
+	margin-left: 60px;
+	float: left;
+}
+
+.changeColor
+{
+	background-color: #fcf390;
+	transform: scale(-0.9);
+  box-shadow: .5px .5px 2px 2px #ffc600;
+	opacity: 1;
+}
+
+
+#key1, #key2:first-child
+{
+	margin-left: 0;
+}
+
+#key3
+{
+	float: right;
+	margin-left: 60px;
+}
+
+#key4, #key5
+{
+	margin-left: 60px;
+	float: left;
+	margin-top: 65px;
+}
+
+#key4, #key5:first-child
+{
+	margin-left: 0;
+}
+
+#key6
+{
+	float: right;
+	margin-left: 60px;
+	margin-top: 65px;
+}
+
+#key7, #key8
+{
+	margin-left: 60px;
+	float: left;
+	margin-top: 65px;
+}
+
+#key7, #key8:first-child
+{
+	margin-left: 0;
+}
+
+#key9
+{
+	float: right;
+	margin-left: 60px;
+	margin-top: 65px;
+}
